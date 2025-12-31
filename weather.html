@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherReady App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button style="display: none;"><img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" width="20px"> Output</button>
+        </div>
+        <h1 style="text-align: center;">Weather measure</h1>
+        <div class="weather">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="weather-icon">
+            <h1 class="temp">--°C</h1>
+            <h2 class="city">Search a City</h2>
+            <div class="details">
+                <div class="col">
+                    <p class="humidity">--%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <p class="wind">-- km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="error" style="display: none; color: red; margin-top: 10px;">
+            <p>Invalid city name</p>
+        </div>
+    </div>
+    <h1 style="text-align: center;">Author Mithlesh Kumar</h1>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
